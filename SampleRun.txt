@@ -1,0 +1,47 @@
+run:
+Enter in the expression in infix notation:
+(9-8)*(7+4)
+Enter in the expression in infix notation:
+(9-8)*(7+4)
+Tree 1:
+depth:0 data:* index:0
+depth:1 data:- index:1
+depth:2 data:9 index:2
+depth:2 data:8 index:3
+depth:1 data:+ index:4
+depth:2 data:7 index:5
+depth:2 data:4 index:6
+Tree 2:
+depth:0 data:* index:0
+depth:1 data:- index:1
+depth:2 data:9 index:2
+depth:2 data:8 index:3
+depth:1 data:+ index:4
+depth:2 data:7 index:5
+depth:2 data:4 index:6
+Random index for 1:2
+Random index for 2:1
+1st subtree:
+depth:0 data:9 
+2st subtree:
+depth:0 data:- 
+depth:1 data:9 
+depth:1 data:8 
+Crossover-----------------------------------------------------------
+New tree 1:
+depth:0 data:* 
+depth:1 data:- 
+depth:2 data:- 
+depth:3 data:9 
+depth:3 data:8 
+depth:2 data:8 
+depth:1 data:+ 
+depth:2 data:7 
+depth:2 data:4 
+New tree 2:
+depth:0 data:* 
+depth:1 data:9 
+depth:1 data:+ 
+depth:2 data:7 
+depth:2 data:4 
+BUILD SUCCESSFUL (total time: 5 seconds)
